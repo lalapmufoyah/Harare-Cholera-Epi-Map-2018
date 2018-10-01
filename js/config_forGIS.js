@@ -21,7 +21,7 @@
 				// epiDataset - Related to the delimiter-separated values dataset to be joined to the geometry.
 				epiDataset : {
 					// source (STRING) - Link to the epi data, can be remote or local.
-					source : "data/harare_230918.csv",
+					source : "data/harare_270918.csv",
 					// delimiter (STRING) - Defines the delimiter used in the dataset.
 					delimiter : ",",
 	                // remote (BOOLEAN) -  To be set as 'true' for online use. Set as 'false' to avoid CORS issues on local use.
@@ -115,11 +115,11 @@
 				// cases (all param : INTEGER) - define the default range of circle size for each analysis. 
 				cases : {
 	                analysis_1 : {
-	                    minArea : 1,
+	                    minArea : 10,
 	                    maxArea : 600                    
 	                },
 	                analysis_2 : {
-	                    minArea : 5,
+	                    minArea : 10,
 	                    maxArea : 1000
 	                }				
 				},
@@ -154,7 +154,7 @@
 					// outline - For the outlines
 					outline : {
 						// strokeColor (STRING) - RGBA string that contains the color for the outlines.
-						strokeColor : "rgba(51,100,168,0.4)",
+						strokeColor : "rgba(51,100,100,0.4)",
 						// strokeWidth (REAL) - Defines the width of circles' outlines.
 						strokeWidth : 1
 					},
@@ -210,7 +210,7 @@
 			// Define layout components (all param : STRING) - Title, descriptions, etc...
 		    layout : {
 		        // appTitle - Set the title of the webmap.
-		        appTitle : "HARARE - 2018 Cholera Outbreak",
+		        appTitle : "HARARE - 2018 Cholera Outbreak (As of Sep 27, 2018)",
 		        // analysisSectionTitle - Section title for analysis selector.
 		        analysisSectionTitle : "Map analysis",
 		        // analysisDescription - Description below analysis title (Use HTML tags for formatting).
@@ -229,8 +229,8 @@
 		        selectionDefault : "Select an administrative area...",
 		        
 		        // THE THREE ATTRIBUTES BELOW ARE NOT IMPLEMENTED YET
-		        // appDisclaimer (STRING) - Write a disclaimer
-		        appDisclaimer : "This page displays incomplete data for educationnal purposes only",
+
+		        appDisclaimer : "The data presented is only for urban Harare and may be incomplete",
 		        // displayAppDisclaimer (BOOLEAN) - Hide or show app disclaimer.
 		        displayAppDisclaimer : true,
 		        // mapSettings (BOOLEAN) - Hide or show map settings.
