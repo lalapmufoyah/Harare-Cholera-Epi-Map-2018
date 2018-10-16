@@ -21,7 +21,7 @@
 				// epiDataset - Related to the delimiter-separated values dataset to be joined to the geometry.
 				epiDataset : {
 					// source (STRING) - Link to the epi data, can be remote or local.
-					source : "data/harare_061018.csv",
+					source : "data/harare_141018.csv",
 					// delimiter (STRING) - Defines the delimiter used in the dataset.
 					delimiter : ",",
 	                // remote (BOOLEAN) -  To be set as 'true' for online use. Set as 'false' to avoid CORS issues on local use.
