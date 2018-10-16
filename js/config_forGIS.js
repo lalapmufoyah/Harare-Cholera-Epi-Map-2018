@@ -210,7 +210,7 @@
 			// Define layout components (all param : STRING) - Title, descriptions, etc...
 		    layout : {
 		        // appTitle - Set the title of the webmap.
-		        appTitle : "HARARE - 2018 Cholera Outbreak (As of Oct 6, 2018)",
+		        appTitle : "HARARE - 2018 Cholera Outbreak (As of Oct 14, 2018)",
 		        // analysisSectionTitle - Section title for analysis selector.
 		        analysisSectionTitle : "Map analysis",
 		        // analysisDescription - Description below analysis title (Use HTML tags for formatting).
