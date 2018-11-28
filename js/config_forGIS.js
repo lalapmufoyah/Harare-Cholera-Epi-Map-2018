@@ -21,7 +21,7 @@
 				// epiDataset - Related to the delimiter-separated values dataset to be joined to the geometry.
 				epiDataset : {
 					// source (STRING) - Link to the epi data, can be remote or local.
-					source : "data/harare_191118.csv",
+					source : "data/harare_231118.csv",
 					// delimiter (STRING) - Defines the delimiter used in the dataset.
 					delimiter : ",",
 	                // remote (BOOLEAN) -  To be set as 'true' for online use. Set as 'false' to avoid CORS issues on local use.
@@ -210,7 +210,7 @@
 			// Define layout components (all param : STRING) - Title, descriptions, etc...
 		    layout : {
 		        // appTitle - Set the title of the webmap.
-		        appTitle : "HARARE - 2018 Cholera Outbreak (As of Nov 19, 2018)",
+		        appTitle : "HARARE - 2018 Cholera Outbreak (As of Nov 23, 2018)",
 		        // analysisSectionTitle - Section title for analysis selector.
 		        analysisSectionTitle : "Map analysis",
 		        // analysisDescription - Description below analysis title (Use HTML tags for formatting).
